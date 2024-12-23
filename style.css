@@ -13,7 +13,7 @@ body {
 }
 /* CONTAINER */
 .container {
-  background-color: rgba(253, 249, 249, 0.815);
+  background-color: rgba(241, 235, 235, 0.671);
   height: 800px;
   width: 1500px;
   display: grid;
@@ -119,29 +119,108 @@ body {
 }
 /* ITEM 04 */
 .item--4 {
-  background-color: orange;
+  background-color: white;
   grid-row: 5/-1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  gap: 20px;
+}
+.item--4 p span {
+  display: block;
+  font-weight: bold;
+}
+.item--4 p {
+  font-size: 32px;
+}
+.item--4 img {
+  width: 160px;
 }
 /* ITEM 05 */
 .item--5 {
-  background-color: teal;
-  /* grid-column:  ; */
+  background-color: hsl(33, 56%, 89%);
   grid-row: 3/5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  padding: 15px;
+  position: relative;
+  overflow: hidden;
+}
+.item--5 img {
+  width: 450px;
+  position: absolute;
+  top: 15px;
+  right: -128px;
+}
+.item--5 p {
+  font-size: 30px;
+  text-align: center;
+  font-weight: 500;
 }
 /* ITEM 06 */
 .item--6 {
-  background-color: tomato;
+  background-color: hsl(39, 100%, 71%);
   grid-row: 3/5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  padding: 15px;
+  position: relative;
+  overflow: hidden;
+}
+.item--6 p {
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 1.1;
+}
+.item--6 img {
+  width: 250px;
+  position: absolute;
+  bottom: -78px;
 }
 /* ITEM 07 */
 .item--7 {
-  background-color: palegreen;
+  background-color: hsl(39, 100%, 71%);
   grid-column: 1/2;
   grid-row: 4/-1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.item--7 p {
+  font-size: 28px;
+  font-weight: bold;
+  width: 70%;
+  margin-bottom: 15px;
+  letter-spacing: -1px;
+}
+.item--7 img {
+  width: 200px;
 }
 /* ITEM 08 */
 .item--8 {
-  background-color: rgb(107, 13, 107);
+  background-color: hsl(256, 67%, 59%);
   grid-column: 3/-1;
   grid-row: 5/-1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  padding: 20px;
+}
+.item--8 img {
+  width: 220px;
+}
+.item--8 p {
+  color: white;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 1;
+  /* width: 65%; */
 }
